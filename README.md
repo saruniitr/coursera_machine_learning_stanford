@@ -25,5 +25,4 @@ In this exercise we will implement K-means clustering and apply it to compress a
 * Programming Exercise 8 - Anamoly Detection and Recommender Systems
 In this exercise we will implement Anamoly detection and apply it to detect failing servers on a Network. In the second part we use Collabarative filetering to build a recommender system for Movies.
 
-* Credit Card Fraud Analysis
-In this program we analyse real Credit Card transaction data and classify whether a given transaction is fradulent or valid using Logistic Regression. The dataset used is real but it is not tagged for confidential reasons. Performance metrics like Precision, Recall and F1 Score are computed as this a highly skewed dataset. Please check the source for more details.
+* Credit Card Fraud Analysis - In this exercise we analyse real Credit Card transaction data and classify whether a given transaction is fradulent or valid using Logistic Regression. The dataset used is real but it is not tagged for confidential reasons. Performance metrics like Precision, Recall and F1 Score are computed as this a highly skewed dataset. Please check the source for more details.
