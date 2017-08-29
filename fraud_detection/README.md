@@ -36,8 +36,15 @@ The logistic regression hypothesis is the [sigmoid function](https://en.wikipedi
 
 In the current implementation the features are first normalized and split into Training (70%) and Validation set (30%). At the moment the Training error/Cost is minimized without Regularization. We use FMin unconstrained function (fminunc) to minimize the cost. Once the cost is minimized we get optimal parameters (theta) which are used to make Predictions on Validation set.
 
+The cost function used is,
+
+![Cost function](https://github.com/saruniitr/coursera_machine_learning_stanford/blob/master/fraud_detection/log_reg_cost_func.png)
+
 ## Performance
-This dataset is *higly skewed*, meaning the difference between positive and negative examples is huge (only 0.172% of examples are fradulent transactions). In such cases prediction accuracy is not a good performance indicator; We have to calculate *Precision, Recall and F1 Score* which are reasonable performance indicators. These values on a particular run are,
+This dataset is *higly skewed*, meaning the difference between positive and negative examples is huge (only 0.172% of examples are fradulent transactions). In such cases prediction accuracy is not a good performance indicator; We have to calculate *Precision, Recall and F1 Score* which are reasonable performance indicators. The training error and other metrics on a particular run are,
+
+* Training Error/Cost with respect to No. of Iterations
+![Training Error](https://github.com/saruniitr/coursera_machine_learning_stanford/blob/master/fraud_detection/cost_history.png)
 
 
 | Performance Indicator   | Value     |
